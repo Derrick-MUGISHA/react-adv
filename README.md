@@ -1,19 +1,68 @@
-# React + Vite
+### The project is called react-adv
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## installetion 
 
-Currently, two official plugins are available:
+# 1. clone a repository 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```
+git clone <https url>
 
-## React Compiler
+```
+You have to navigate to the project folder and run the following command to install the dependencies
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+```
+cd project folder name
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+```
 
-## Expanding the ESLint configuration
+# 2. install dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+the requirements should included :
+ - node version 
+ ```
+ node -v #v20~v24
+
+ ```
+ - npm version
+```
+npm -v #v10~v12
+
+```
+Then you install the dependencies using the following command
+
+```
+npm install
+
+```
+
+# 3. run the project
+
+the following are way to run the project 
+
+- development mode
+
+``` 
+npm run dev
+
+```
+
+- Build A project  
+
+```
+npm run build
+
+```
+
+- Lint check 
+
+```
+npm run lint
+
+```
+
+- The preview mode 
+
+```
+npm run preview
+
+```
